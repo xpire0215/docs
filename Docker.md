@@ -103,5 +103,8 @@ ex: docker network inspect bridge                                               
 docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
 
 ex: docker run --name website-mysql -e MYSQL_ROOT_PASSWORD=django107721 -d mysql
+
+# Bridge to network
+ex: docker run --name website-mysql -e MYSQL_ROOT_PASSWORD=django107721 -d mysql --network bridge
 ```
 
